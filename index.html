@@ -12,6 +12,12 @@
 <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
 <!-- HelloPreload http://hello-site.ru/preloader/ -->
 
+	<!--Перенаправление-->
+<script>
+if (screen.width <= '768') {location.href = 'tablet.html'} 
+if (screen.width <= '480') {location.href = 'phone.html'}
+</script>
+
 </head>
 
 <body>
@@ -30,14 +36,6 @@
 			<a href="pc/about.html" class="about">О проекте</a>
 		</div>
 	</article>
-
-	<!--Перенаправление-->
-<script>
-		if ( window.innerWidth <= 1080) {
-			window.location.href = 'phone.html'
-		}
-
-	</script>
 
 	<!--JQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
