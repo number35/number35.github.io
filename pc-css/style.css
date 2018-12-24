@@ -1,0 +1,47 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background: white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	margin: 0 20px;
+		font-weight: bold;
+}
+
+.urls {
+	margin: 0 20px;
+	font-size: 25px;
+	position: absolute;
+	top: 20%;
+	left: 23%;
+		font-weight: bold;
+}
+
+.home , .tran-tor , .contacts , .about {
+	background: white;
+	padding: 5px;
+	border-radius: 10px;
+	transition:all 0.3s ease;
+		font-weight: bold;
+}
+
+.home:hover , .tran-tor:hover , .contacts:hover , .about:hover {
+    box-shadow: inset 0 0 0 3px #53a7ea;
+}
+
+#urls {
+	margin-top: 50%;
+	margin-bottom: 40%;
+		font-weight: bold;
+}
+
+.welcome {
+	font-size: 40px;
+	position: absolute;
+	top: 20%;
+	left: 37%;
+}
