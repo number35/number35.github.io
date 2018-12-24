@@ -4,7 +4,6 @@
 		margin: 0px;
 		padding: 0px;
 		font-family: Arial Narrow, sans-serif;
-		background: #a74646;
 	}
 
 	.menu {
@@ -14,7 +13,6 @@
 		width: 35%;
 		height: 100%;
 		border-radius: 0px 10px 10px 0px;
-		opacity: 0.8;
 	}
 
 	.content {

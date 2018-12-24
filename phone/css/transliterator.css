@@ -49,10 +49,10 @@ a {
 	position: absolute;
 	right: 1%;
 	top: 33%;
-	font-size: 18px;
+	font-size: 20px;
 	letter-spacing: 2px;
 	border-radius: 10px;
-	width: 30%;
+	width: 23%;
 	height: 6%;
 }
 
@@ -65,7 +65,5 @@ a {
 	.transliter {
 		top: 37%;
 		height: 8%;
-		border-radius: 10px;
-		width: 26%;
 	}
 }
