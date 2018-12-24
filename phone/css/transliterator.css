@@ -65,5 +65,7 @@ a {
 	.transliter {
 		top: 37%;
 		height: 8%;
+		border-radius: 10px;
+		width: 26%;
 	}
 }
