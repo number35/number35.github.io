@@ -52,9 +52,8 @@ a {
 	font-size: 18px;
 	letter-spacing: 2px;
 	border-radius: 10px;
-	width: 26%;
+	width: 30%;
 	height: 6%;
-	padding-right: 10px;
 }
 
 @media screen and (max-width: 1080px) {
